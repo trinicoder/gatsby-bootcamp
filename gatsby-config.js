@@ -5,5 +5,21 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: 'Fullstack Bootcamp',
+    author: 'Varoon Silochan'
+  },
+  plugins: [
+    'gatsby-plugin-sass',
+    'gatsby-transformer-json',
+    {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `src`,
+      path: `${__dirname}/src/`,
+    },
+  }
+  ]
+
+  
 }
