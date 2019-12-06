@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 import headerStyles from './header.module.scss';
 const Header = () => {
     return (
-      
+
             <header className={headerStyles.header}>    
             <h1>
             <Link className={headerStyles.title} to ="/">Varoon Silochan</Link>
