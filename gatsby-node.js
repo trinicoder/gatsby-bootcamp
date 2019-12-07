@@ -39,5 +39,5 @@ module.exports.createPages = async ({ graphql, actions }) => {
             }
         })
     })
-    //1. Get path to template
+    
 }
